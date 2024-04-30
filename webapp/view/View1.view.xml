@@ -1,0 +1,44 @@
+<mvc:View controllerName="cicds4nd.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content />
+        <HBox>
+            <label text="es geht nur nicht in safari?!! :-(" />
+            <button text="huhu" press="huhupress" />
+            <label text="änderung 1" />
+            <label text="änderung 2" />
+            <label text="änderung 3" />
+            <label text="änderung 4" />
+            <label text="änderung 5" />
+            <label text="änderung 6" />
+            <label text="änderung 7" />
+            <label text="änderung 8" />
+            <label text="änderung 9" />
+            <label text="änderung 10" />
+            <label text="zeit 16:13 montag" />
+            <Label text="AKTUELLE VERSION!" />
+        </HBox>
+        <HBox>
+            <Label text="Shift Reload geht in Chrome!" />
+        </HBox>
+        <HBox>
+            <Label text="Ja das funktionier (1)" />
+        </HBox>
+        <HBox>
+            <Label text="Ja das funktionier (2)" />
+        </HBox>
+        <HBox>
+            <Button text="reload()" press="reload" />
+            <Button text="refresh()" press="refresh" />
+            <Button text="reload(true)" press="reloadtrue" />
+            <Button text="reload(false)" press="reloadfalse" />
+        </HBox>
+        <HBox>
+            <Label text="V1" />
+            <Label text="V2" />
+            <Label text="V3" />
+            <Label text="V4" />
+        </HBox>
+    </Page>
+</mvc:View>
